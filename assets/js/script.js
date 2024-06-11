@@ -1,15 +1,10 @@
-document.addEventListener('DOMContentLoaded', function () {
-    // code akan berjalan setelah DOM selesai dimuat
-    const form = document.getElementById('registrationForm');
-    if (form) {
-        form.addEventListener('submit', function (event) {
-            const password = document.getElementById('pass').value;
-            const confirmPassword = document.getElementById('cpass').value;
+$(document).ready(function () {
+    $(window).scroll(function () {
+        var wScroll = $(this).scrollTop();
 
-            if (password !== confirmPassword) {
-                alert('Konfirmasi password tidak sesuai.');
-                event.preventDefault();
-            }
-        });
-    }
+        if ((wScroll / 10)) {
+            $('.card').addClass('right-slide');
+            $('.cod').addClass('left-slide');
+        }
+    });
 });

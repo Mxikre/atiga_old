@@ -1,0 +1,44 @@
+.banner-contact {
+    background-image: linear-gradient(45deg, var(--primary), #ffe1f5);
+    height: 450px;
+    padding: 250px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.banner-contact .banner-text h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.contact {
+    margin-top: -100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    border: 0;
+    box-shadow: 5px 15px 38px rgba(0, 0, 0, 0.1);
+    position: relative;
+
+}
+
+.card-contact .card-body {
+    padding: 40px;
+}
+
+.card-contact .card-body .card-info {
+    padding-left: 0;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card-contact .card-body .card-info .feather {
+    color: var(--primary);
+}
